@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>UesrServlet</servlet-name>
+    <servlet-class>com.blog.control.servlet.UesrServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.blog.control.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ArticleServlet</servlet-name>
+    <servlet-class>com.blog.control.servlet.ArticleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>com.blog.control.servlet.CommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.blog.control.servlet.AdminServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UesrServlet</servlet-name>
+    <url-pattern>/UesrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ArticleServlet</servlet-name>
+    <url-pattern>/ArticleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/CommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

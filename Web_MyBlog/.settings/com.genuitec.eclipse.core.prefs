@@ -1,0 +1,4 @@
+#Sun Sep 03 14:33:14 CST 2017
+eclipse.preferences.version=1
+validator.Checked=WebRoot/admin,WebRoot/register.jsp,WebRoot/js,WebRoot/success.jsp,WebRoot/administrator,WebRoot/user,WebRoot/index.jsp,src/com/blog/model/dao/Impl/AdminDaoImpl.java
+validator.Unchecked=
